@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A11C011E35E8170029FF39 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A11C001E35E8170029FF39 /* CoreData.framework */; };
+		255397E81E2E572400DCC794 /* DDGMasterTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255397E71E2E572400DCC794 /* DDGMasterTaskViewController.m */; };
+		255397EB1E2E5EFF00DCC794 /* DDGSlaveReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 255397EA1E2E5EFF00DCC794 /* DDGSlaveReadViewController.m */; };
+		25FD81B71E2A468B003BF7AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD81B61E2A468B003BF7AD /* UIKit.framework */; };
+		25FD81B91E2A468C003BF7AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD81B81E2A468B003BF7AD /* Foundation.framework */; };
+		25FD81BB1E2A468C003BF7AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FD81BA1E2A468C003BF7AD /* CoreGraphics.framework */; };
+		25FD81C11E2A468C003BF7AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FD81BF1E2A468C003BF7AD /* InfoPlist.strings */; };
+		25FD81C31E2A468C003BF7AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD81C21E2A468C003BF7AD /* main.m */; };
+		25FD81C71E2A468C003BF7AD /* DDGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD81C61E2A468C003BF7AD /* DDGAppDelegate.m */; };
+		25FD81C91E2A468C003BF7AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FD81C81E2A468C003BF7AD /* Default.png */; };
+		25FD81CB1E2A468C003BF7AD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FD81CA1E2A468C003BF7AD /* Default@2x.png */; };
+		25FD81CD1E2A468C003BF7AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25FD81CC1E2A468C003BF7AD /* Default-568h@2x.png */; };
+		840CCD941EA7AE3000766E6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CCD931EA7AE3000766E6C /* AVFoundation.framework */; };
+		840CCD961EA7B03F00766E6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CCD951EA7B03F00766E6C /* QuartzCore.framework */; };
+		841485621EA61F3000AB458C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841485611EA61F3000AB458C /* MobileCoreServices.framework */; };
+		84AB25F21E7993A4009D3BAF /* DDGTripleProjTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB25F11E7993A4009D3BAF /* DDGTripleProjTableViewController.m */; };
+		84AB25F51E7993CB009D3BAF /* DDGForthPlanTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB25F41E7993CB009D3BAF /* DDGForthPlanTableViewController.m */; };
+		8B7DBAEB1FE7898400491F1C /* DDGDBExecutor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DBAEA1FE7898400491F1C /* DDGDBExecutor.mm */; };
+		8B8E2DDB24A9F98E00982098 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8E2DDA24A9F98E00982098 /* libz.tbd */; };
+		8BCFBD6E26874C9E003DD5EF /* DDGMallTaskDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD4626874C9C003DD5EF /* DDGMallTaskDetailViewController.xib */; };
+		8BCFBD6F26874C9E003DD5EF /* DDGEventTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD4726874C9C003DD5EF /* DDGEventTaskViewController.xib */; };
+		8BCFBD7026874C9E003DD5EF /* DDGProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD4926874C9C003DD5EF /* DDGProjectViewController.xib */; };
+		8BCFBD7126874C9E003DD5EF /* DDGTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD4C26874C9C003DD5EF /* DDGTaskDetailViewController.m */; };
+		8BCFBD7226874C9E003DD5EF /* DDGTaskDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD4D26874C9C003DD5EF /* DDGTaskDetailViewController.xib */; };
+		8BCFBD7326874C9E003DD5EF /* DDGEventTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5026874C9C003DD5EF /* DDGEventTask.m */; };
+		8BCFBD7426874C9E003DD5EF /* DDGReadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5126874C9C003DD5EF /* DDGReadTask.m */; };
+		8BCFBD7526874C9E003DD5EF /* DDGMallTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5226874C9C003DD5EF /* DDGMallTaskDetailViewController.m */; };
+		8BCFBD7626874C9E003DD5EF /* DDGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5326874C9C003DD5EF /* DDGTask.m */; };
+		8BCFBD7726874C9E003DD5EF /* DDGTaskDBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5426874C9D003DD5EF /* DDGTaskDBManager.cpp */; };
+		8BCFBD7826874C9E003DD5EF /* DDGTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5526874C9D003DD5EF /* DDGTaskViewController.m */; };
+		8BCFBD7926874C9E003DD5EF /* DDGNewTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5726874C9D003DD5EF /* DDGNewTaskViewController.xib */; };
+		8BCFBD7B26874C9E003DD5EF /* DDGTaskDateTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5B26874C9D003DD5EF /* DDGTaskDateTimeViewController.m */; };
+		8BCFBD7C26874C9E003DD5EF /* DDGTaskDateTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5E26874C9D003DD5EF /* DDGTaskDateTimeViewController.xib */; };
+		8BCFBD7D26874C9E003DD5EF /* DDGTaskStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD5F26874C9D003DD5EF /* DDGTaskStore.m */; };
+		8BCFBD7E26874C9E003DD5EF /* DDGMallTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD6126874C9D003DD5EF /* DDGMallTaskViewController.xib */; };
+		8BCFBD8026874C9E003DD5EF /* DDGProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD6426874C9D003DD5EF /* DDGProjectViewController.m */; };
+		8BCFBD8126874C9E003DD5EF /* DDGMallTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD6526874C9E003DD5EF /* DDGMallTaskViewController.m */; };
+		8BCFBD8226874C9E003DD5EF /* DDGShopTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD6626874C9E003DD5EF /* DDGShopTask.m */; };
+		8BCFBD8326874C9E003DD5EF /* DDGProjectTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD6926874C9E003DD5EF /* DDGProjectTask.m */; };
+		8BCFBD8426874C9E003DD5EF /* DDGNewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD6A26874C9E003DD5EF /* DDGNewTaskViewController.m */; };
+		8BCFBD8526874C9E003DD5EF /* DDGEventTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD6D26874C9E003DD5EF /* DDGEventTaskViewController.m */; };
+		8BCFBD8B26874F50003DD5EF /* DDGPlanStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD8A26874F50003DD5EF /* DDGPlanStore.m */; };
+		8BCFBD942687508A003DD5EF /* DDGGenericTableCellController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD8D2687508A003DD5EF /* DDGGenericTableCellController.m */; };
+		8BCFBD952687508A003DD5EF /* DDGGenericLableController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD8F2687508A003DD5EF /* DDGGenericLableController.xib */; };
+		8BCFBD962687508A003DD5EF /* DDGViewCtrlStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD902687508A003DD5EF /* DDGViewCtrlStore.m */; };
+		8BCFBD972687508A003DD5EF /* DDGGenericLableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD922687508A003DD5EF /* DDGGenericLableController.m */; };
+		8BCFBD982687508A003DD5EF /* DDGGenericTableCellController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD932687508A003DD5EF /* DDGGenericTableCellController.xib */; };
+		8BCFBD9C2687511F003DD5EF /* DDGCusTaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD992687511F003DD5EF /* DDGCusTaskTableViewCell.m */; };
+		8BCFBD9D2687511F003DD5EF /* DDGCusTaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBD9B2687511F003DD5EF /* DDGCusTaskTableViewCell.xib */; };
+		8BCFBDA026875148003DD5EF /* DDGDTimeCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBD9F26875148003DD5EF /* DDGDTimeCommon.m */; };
+		8BCFBDAB2687516F003DD5EF /* DDGBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDA12687516F003DD5EF /* DDGBook.m */; };
+		8BCFBDAC2687516F003DD5EF /* DDGBookTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDA22687516F003DD5EF /* DDGBookTaskViewController.m */; };
+		8BCFBDAD2687516F003DD5EF /* DDGBookStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDA32687516F003DD5EF /* DDGBookStore.m */; };
+		8BCFBDAE2687516F003DD5EF /* DDGDetailBookInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBDA62687516F003DD5EF /* DDGDetailBookInfoViewController.xib */; };
+		8BCFBDAF2687516F003DD5EF /* DDGBookTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBDA82687516F003DD5EF /* DDGBookTaskViewController.xib */; };
+		8BCFBDB02687516F003DD5EF /* DDGDetailBookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDAA2687516F003DD5EF /* DDGDetailBookInfoViewController.m */; };
+		8BCFBDB4268751C3003DD5EF /* DDGQRCoderScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCFBDB1268751C3003DD5EF /* DDGQRCoderScanViewController.xib */; };
+		8BCFBDB5268751C3003DD5EF /* DDGQRCoderScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDB3268751C3003DD5EF /* DDGQRCoderScanViewController.m */; };
+		8BCFBDB826875204003DD5EF /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDB626875204003DD5EF /* KxMenu.m */; };
+		8BCFBDBB26875245003DD5EF /* DDGNetworker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDBA26875245003DD5EF /* DDGNetworker.m */; };
+		8BCFBDBE26875444003DD5EF /* SQLite3Cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BCFBDBC26875444003DD5EF /* SQLite3Cpp.cpp */; };
+		BF5C6E1820444A7200F61A61 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5C6E1720444A7200F61A61 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A11C001E35E8170029FF39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		255397E61E2E572400DCC794 /* DDGMasterTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGMasterTaskViewController.h; sourceTree = "<group>"; };
+		255397E71E2E572400DCC794 /* DDGMasterTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGMasterTaskViewController.m; sourceTree = "<group>"; };
+		255397E91E2E5EFF00DCC794 /* DDGSlaveReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGSlaveReadViewController.h; sourceTree = "<group>"; };
+		255397EA1E2E5EFF00DCC794 /* DDGSlaveReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGSlaveReadViewController.m; sourceTree = "<group>"; };
+		25FD81B31E2A468B003BF7AD /* DigitPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FD81B61E2A468B003BF7AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25FD81B81E2A468B003BF7AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25FD81BA1E2A468C003BF7AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25FD81BE1E2A468C003BF7AD /* DigitPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitPlayer-Info.plist"; sourceTree = "<group>"; };
+		25FD81C01E2A468C003BF7AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25FD81C21E2A468C003BF7AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25FD81C41E2A468C003BF7AD /* DigitPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		25FD81C51E2A468C003BF7AD /* DDGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDGAppDelegate.h; sourceTree = "<group>"; };
+		25FD81C61E2A468C003BF7AD /* DDGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDGAppDelegate.m; sourceTree = "<group>"; };
+		25FD81C81E2A468C003BF7AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		25FD81CA1E2A468C003BF7AD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		25FD81CC1E2A468C003BF7AD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		840CCD931EA7AE3000766E6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		840CCD951EA7B03F00766E6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		841485611EA61F3000AB458C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		84AB25F01E7993A4009D3BAF /* DDGTripleProjTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGTripleProjTableViewController.h; sourceTree = "<group>"; };
+		84AB25F11E7993A4009D3BAF /* DDGTripleProjTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGTripleProjTableViewController.m; sourceTree = "<group>"; };
+		84AB25F31E7993CB009D3BAF /* DDGForthPlanTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGForthPlanTableViewController.h; sourceTree = "<group>"; };
+		84AB25F41E7993CB009D3BAF /* DDGForthPlanTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGForthPlanTableViewController.m; sourceTree = "<group>"; };
+		8B7DBAE91FE7898400491F1C /* DDGDBExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGDBExecutor.h; path = DigitPlayer/DDGDBExecutor.h; sourceTree = "<group>"; };
+		8B7DBAEA1FE7898400491F1C /* DDGDBExecutor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = DDGDBExecutor.mm; path = DigitPlayer/DDGDBExecutor.mm; sourceTree = "<group>"; };
+		8B8E2DDA24A9F98E00982098 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8BCFBD4626874C9C003DD5EF /* DDGMallTaskDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGMallTaskDetailViewController.xib; path = DigitPlayer/Tasks/DDGMallTaskDetailViewController.xib; sourceTree = "<group>"; };
+		8BCFBD4726874C9C003DD5EF /* DDGEventTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGEventTaskViewController.xib; path = DigitPlayer/Tasks/DDGEventTaskViewController.xib; sourceTree = "<group>"; };
+		8BCFBD4826874C9C003DD5EF /* DDGTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGTaskDetailViewController.h; path = DigitPlayer/Tasks/DDGTaskDetailViewController.h; sourceTree = "<group>"; };
+		8BCFBD4926874C9C003DD5EF /* DDGProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGProjectViewController.xib; path = DigitPlayer/Tasks/DDGProjectViewController.xib; sourceTree = "<group>"; };
+		8BCFBD4A26874C9C003DD5EF /* DDGShopTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGShopTask.h; path = DigitPlayer/Tasks/DDGShopTask.h; sourceTree = "<group>"; };
+		8BCFBD4B26874C9C003DD5EF /* DDGProjectTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGProjectTask.h; path = DigitPlayer/Tasks/DDGProjectTask.h; sourceTree = "<group>"; };
+		8BCFBD4C26874C9C003DD5EF /* DDGTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGTaskDetailViewController.m; path = DigitPlayer/Tasks/DDGTaskDetailViewController.m; sourceTree = "<group>"; };
+		8BCFBD4D26874C9C003DD5EF /* DDGTaskDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGTaskDetailViewController.xib; path = DigitPlayer/Tasks/DDGTaskDetailViewController.xib; sourceTree = "<group>"; };
+		8BCFBD4E26874C9C003DD5EF /* DDGTaskStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGTaskStore.h; path = DigitPlayer/Tasks/DDGTaskStore.h; sourceTree = "<group>"; };
+		8BCFBD4F26874C9C003DD5EF /* DDGProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGProjectViewController.h; path = DigitPlayer/Tasks/DDGProjectViewController.h; sourceTree = "<group>"; };
+		8BCFBD5026874C9C003DD5EF /* DDGEventTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGEventTask.m; path = DigitPlayer/Tasks/DDGEventTask.m; sourceTree = "<group>"; };
+		8BCFBD5126874C9C003DD5EF /* DDGReadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGReadTask.m; path = DigitPlayer/Tasks/DDGReadTask.m; sourceTree = "<group>"; };
+		8BCFBD5226874C9C003DD5EF /* DDGMallTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGMallTaskDetailViewController.m; path = DigitPlayer/Tasks/DDGMallTaskDetailViewController.m; sourceTree = "<group>"; };
+		8BCFBD5326874C9C003DD5EF /* DDGTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGTask.m; path = DigitPlayer/Tasks/DDGTask.m; sourceTree = "<group>"; };
+		8BCFBD5426874C9D003DD5EF /* DDGTaskDBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DDGTaskDBManager.cpp; path = DigitPlayer/Tasks/DDGTaskDBManager.cpp; sourceTree = "<group>"; };
+		8BCFBD5526874C9D003DD5EF /* DDGTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGTaskViewController.m; path = DigitPlayer/Tasks/DDGTaskViewController.m; sourceTree = "<group>"; };
+		8BCFBD5626874C9D003DD5EF /* DDGEventTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGEventTask.h; path = DigitPlayer/Tasks/DDGEventTask.h; sourceTree = "<group>"; };
+		8BCFBD5726874C9D003DD5EF /* DDGNewTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGNewTaskViewController.xib; path = DigitPlayer/Tasks/DDGNewTaskViewController.xib; sourceTree = "<group>"; };
+		8BCFBD5826874C9D003DD5EF /* DDGTaskDateTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGTaskDateTimeViewController.h; path = DigitPlayer/Tasks/DDGTaskDateTimeViewController.h; sourceTree = "<group>"; };
+		8BCFBD5926874C9D003DD5EF /* DDGReadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGReadTask.h; path = DigitPlayer/Tasks/DDGReadTask.h; sourceTree = "<group>"; };
+		8BCFBD5B26874C9D003DD5EF /* DDGTaskDateTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGTaskDateTimeViewController.m; path = DigitPlayer/Tasks/DDGTaskDateTimeViewController.m; sourceTree = "<group>"; };
+		8BCFBD5C26874C9D003DD5EF /* DDGTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGTask.h; path = DigitPlayer/Tasks/DDGTask.h; sourceTree = "<group>"; };
+		8BCFBD5D26874C9D003DD5EF /* DDGMallTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGMallTaskViewController.h; path = DigitPlayer/Tasks/DDGMallTaskViewController.h; sourceTree = "<group>"; };
+		8BCFBD5E26874C9D003DD5EF /* DDGTaskDateTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGTaskDateTimeViewController.xib; path = DigitPlayer/Tasks/DDGTaskDateTimeViewController.xib; sourceTree = "<group>"; };
+		8BCFBD5F26874C9D003DD5EF /* DDGTaskStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGTaskStore.m; path = DigitPlayer/Tasks/DDGTaskStore.m; sourceTree = "<group>"; };
+		8BCFBD6026874C9D003DD5EF /* DDGNewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGNewTaskViewController.h; path = DigitPlayer/Tasks/DDGNewTaskViewController.h; sourceTree = "<group>"; };
+		8BCFBD6126874C9D003DD5EF /* DDGMallTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGMallTaskViewController.xib; path = DigitPlayer/Tasks/DDGMallTaskViewController.xib; sourceTree = "<group>"; };
+		8BCFBD6226874C9D003DD5EF /* DDGTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGTaskViewController.h; path = DigitPlayer/Tasks/DDGTaskViewController.h; sourceTree = "<group>"; };
+		8BCFBD6426874C9D003DD5EF /* DDGProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGProjectViewController.m; path = DigitPlayer/Tasks/DDGProjectViewController.m; sourceTree = "<group>"; };
+		8BCFBD6526874C9E003DD5EF /* DDGMallTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGMallTaskViewController.m; path = DigitPlayer/Tasks/DDGMallTaskViewController.m; sourceTree = "<group>"; };
+		8BCFBD6626874C9E003DD5EF /* DDGShopTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGShopTask.m; path = DigitPlayer/Tasks/DDGShopTask.m; sourceTree = "<group>"; };
+		8BCFBD6826874C9E003DD5EF /* DDGEventTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGEventTaskViewController.h; path = DigitPlayer/Tasks/DDGEventTaskViewController.h; sourceTree = "<group>"; };
+		8BCFBD6926874C9E003DD5EF /* DDGProjectTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGProjectTask.m; path = DigitPlayer/Tasks/DDGProjectTask.m; sourceTree = "<group>"; };
+		8BCFBD6A26874C9E003DD5EF /* DDGNewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGNewTaskViewController.m; path = DigitPlayer/Tasks/DDGNewTaskViewController.m; sourceTree = "<group>"; };
+		8BCFBD6B26874C9E003DD5EF /* DDGTaskDBManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DDGTaskDBManager.hpp; path = DigitPlayer/Tasks/DDGTaskDBManager.hpp; sourceTree = "<group>"; };
+		8BCFBD6C26874C9E003DD5EF /* DDGMallTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGMallTaskDetailViewController.h; path = DigitPlayer/Tasks/DDGMallTaskDetailViewController.h; sourceTree = "<group>"; };
+		8BCFBD6D26874C9E003DD5EF /* DDGEventTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGEventTaskViewController.m; path = DigitPlayer/Tasks/DDGEventTaskViewController.m; sourceTree = "<group>"; };
+		8BCFBD8926874F50003DD5EF /* DDGPlanStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGPlanStore.h; path = DigitPlayer/Plans/DDGPlanStore.h; sourceTree = "<group>"; };
+		8BCFBD8A26874F50003DD5EF /* DDGPlanStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGPlanStore.m; path = DigitPlayer/Plans/DDGPlanStore.m; sourceTree = "<group>"; };
+		8BCFBD8C2687508A003DD5EF /* DDGViewCtrlStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGViewCtrlStore.h; path = DigitPlayer/UI/DDGViewCtrlStore.h; sourceTree = "<group>"; };
+		8BCFBD8D2687508A003DD5EF /* DDGGenericTableCellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGGenericTableCellController.m; path = DigitPlayer/UI/DDGGenericTableCellController.m; sourceTree = "<group>"; };
+		8BCFBD8E2687508A003DD5EF /* DDGGenericTableCellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGGenericTableCellController.h; path = DigitPlayer/UI/DDGGenericTableCellController.h; sourceTree = "<group>"; };
+		8BCFBD8F2687508A003DD5EF /* DDGGenericLableController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGGenericLableController.xib; path = DigitPlayer/UI/DDGGenericLableController.xib; sourceTree = "<group>"; };
+		8BCFBD902687508A003DD5EF /* DDGViewCtrlStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGViewCtrlStore.m; path = DigitPlayer/UI/DDGViewCtrlStore.m; sourceTree = "<group>"; };
+		8BCFBD912687508A003DD5EF /* DDGGenericLableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGGenericLableController.h; path = DigitPlayer/UI/DDGGenericLableController.h; sourceTree = "<group>"; };
+		8BCFBD922687508A003DD5EF /* DDGGenericLableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGGenericLableController.m; path = DigitPlayer/UI/DDGGenericLableController.m; sourceTree = "<group>"; };
+		8BCFBD932687508A003DD5EF /* DDGGenericTableCellController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGGenericTableCellController.xib; path = DigitPlayer/UI/DDGGenericTableCellController.xib; sourceTree = "<group>"; };
+		8BCFBD992687511F003DD5EF /* DDGCusTaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGCusTaskTableViewCell.m; path = DigitPlayer/UI/DDGCusTaskTableViewCell.m; sourceTree = "<group>"; };
+		8BCFBD9A2687511F003DD5EF /* DDGCusTaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGCusTaskTableViewCell.h; path = DigitPlayer/UI/DDGCusTaskTableViewCell.h; sourceTree = "<group>"; };
+		8BCFBD9B2687511F003DD5EF /* DDGCusTaskTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGCusTaskTableViewCell.xib; path = DigitPlayer/UI/DDGCusTaskTableViewCell.xib; sourceTree = "<group>"; };
+		8BCFBD9E26875148003DD5EF /* DDGDTimeCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGDTimeCommon.h; path = DigitPlayer/Common/DDGDTimeCommon.h; sourceTree = "<group>"; };
+		8BCFBD9F26875148003DD5EF /* DDGDTimeCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGDTimeCommon.m; path = DigitPlayer/Common/DDGDTimeCommon.m; sourceTree = "<group>"; };
+		8BCFBDA12687516F003DD5EF /* DDGBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGBook.m; path = DigitPlayer/Books/DDGBook.m; sourceTree = "<group>"; };
+		8BCFBDA22687516F003DD5EF /* DDGBookTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGBookTaskViewController.m; path = DigitPlayer/Books/DDGBookTaskViewController.m; sourceTree = "<group>"; };
+		8BCFBDA32687516F003DD5EF /* DDGBookStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGBookStore.m; path = DigitPlayer/Books/DDGBookStore.m; sourceTree = "<group>"; };
+		8BCFBDA42687516F003DD5EF /* DDGDetailBookInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGDetailBookInfoViewController.h; path = DigitPlayer/Books/DDGDetailBookInfoViewController.h; sourceTree = "<group>"; };
+		8BCFBDA52687516F003DD5EF /* DDGBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGBook.h; path = DigitPlayer/Books/DDGBook.h; sourceTree = "<group>"; };
+		8BCFBDA62687516F003DD5EF /* DDGDetailBookInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGDetailBookInfoViewController.xib; path = DigitPlayer/Books/DDGDetailBookInfoViewController.xib; sourceTree = "<group>"; };
+		8BCFBDA72687516F003DD5EF /* DDGBookStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGBookStore.h; path = DigitPlayer/Books/DDGBookStore.h; sourceTree = "<group>"; };
+		8BCFBDA82687516F003DD5EF /* DDGBookTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGBookTaskViewController.xib; path = DigitPlayer/Books/DDGBookTaskViewController.xib; sourceTree = "<group>"; };
+		8BCFBDA92687516F003DD5EF /* DDGBookTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGBookTaskViewController.h; path = DigitPlayer/Books/DDGBookTaskViewController.h; sourceTree = "<group>"; };
+		8BCFBDAA2687516F003DD5EF /* DDGDetailBookInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGDetailBookInfoViewController.m; path = DigitPlayer/Books/DDGDetailBookInfoViewController.m; sourceTree = "<group>"; };
+		8BCFBDB1268751C3003DD5EF /* DDGQRCoderScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDGQRCoderScanViewController.xib; path = DigitPlayer/QRCode/DDGQRCoderScanViewController.xib; sourceTree = "<group>"; };
+		8BCFBDB2268751C3003DD5EF /* DDGQRCoderScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGQRCoderScanViewController.h; path = DigitPlayer/QRCode/DDGQRCoderScanViewController.h; sourceTree = "<group>"; };
+		8BCFBDB3268751C3003DD5EF /* DDGQRCoderScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGQRCoderScanViewController.m; path = DigitPlayer/QRCode/DDGQRCoderScanViewController.m; sourceTree = "<group>"; };
+		8BCFBDB626875204003DD5EF /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxMenu.m; path = DigitPlayer/Source/KxMenu.m; sourceTree = "<group>"; };
+		8BCFBDB726875204003DD5EF /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxMenu.h; path = DigitPlayer/Source/KxMenu.h; sourceTree = "<group>"; };
+		8BCFBDB926875245003DD5EF /* DDGNetworker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDGNetworker.h; path = DigitPlayer/Network/DDGNetworker.h; sourceTree = "<group>"; };
+		8BCFBDBA26875245003DD5EF /* DDGNetworker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDGNetworker.m; path = DigitPlayer/Network/DDGNetworker.m; sourceTree = "<group>"; };
+		8BCFBDBC26875444003DD5EF /* SQLite3Cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SQLite3Cpp.cpp; path = DigitPlayer/DBs/SQLite3Cpp.cpp; sourceTree = "<group>"; };
+		8BCFBDBD26875444003DD5EF /* SQLite3Cpp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SQLite3Cpp.hpp; path = DigitPlayer/DBs/SQLite3Cpp.hpp; sourceTree = "<group>"; };
+		9FABCBE11F02652100CB2D29 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BF5C6E1720444A7200F61A61 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BF5C6E1920444B3A00F61A61 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "libcurl-ios-dist/lib/libcurl.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FD81B01E2A468B003BF7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8E2DDB24A9F98E00982098 /* libz.tbd in Frameworks */,
+				BF5C6E1820444A7200F61A61 /* libsqlite3.dylib in Frameworks */,
+				840CCD961EA7B03F00766E6C /* QuartzCore.framework in Frameworks */,
+				840CCD941EA7AE3000766E6C /* AVFoundation.framework in Frameworks */,
+				841485621EA61F3000AB458C /* MobileCoreServices.framework in Frameworks */,
+				25FD81BB1E2A468C003BF7AD /* CoreGraphics.framework in Frameworks */,
+				04A11C011E35E8170029FF39 /* CoreData.framework in Frameworks */,
+				25FD81B71E2A468B003BF7AD /* UIKit.framework in Frameworks */,
+				25FD81B91E2A468C003BF7AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043B9DCF1E83CBF7000ACE18 /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD8926874F50003DD5EF /* DDGPlanStore.h */,
+				8BCFBD8A26874F50003DD5EF /* DDGPlanStore.m */,
+			);
+			name = Plan;
+			sourceTree = "<group>";
+		};
+		25FD81AA1E2A468B003BF7AD = {
+			isa = PBXGroup;
+			children = (
+				35CEC5481F3C5093006A1A1D /* Networker */,
+				3F10163E1FDE0F2E008AFC38 /* DataStore */,
+				9FABCBCC1F024FA400CB2D29 /* 3rd */,
+				84AAEAEF1E82BAB100A3040C /* Book */,
+				84058E581E7D9295003D07EC /* Util */,
+				84058E521E7D6FF0003D07EC /* UI */,
+				84058E501E7D6F19003D07EC /* Tasks */,
+				25FD81BC1E2A468C003BF7AD /* DigitPlayer */,
+				25FD81B51E2A468B003BF7AD /* Frameworks */,
+				25FD81B41E2A468B003BF7AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25FD81B41E2A468B003BF7AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FD81B31E2A468B003BF7AD /* DigitPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FD81B51E2A468B003BF7AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E2DDA24A9F98E00982098 /* libz.tbd */,
+				BF5C6E1720444A7200F61A61 /* libsqlite3.dylib */,
+				BF5C6E1920444B3A00F61A61 /* libcurl.a */,
+				840CCD951EA7B03F00766E6C /* QuartzCore.framework */,
+				840CCD931EA7AE3000766E6C /* AVFoundation.framework */,
+				841485611EA61F3000AB458C /* MobileCoreServices.framework */,
+				04A11C001E35E8170029FF39 /* CoreData.framework */,
+				25FD81B61E2A468B003BF7AD /* UIKit.framework */,
+				25FD81B81E2A468B003BF7AD /* Foundation.framework */,
+				25FD81BA1E2A468C003BF7AD /* CoreGraphics.framework */,
+				9FABCBE11F02652100CB2D29 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25FD81BC1E2A468C003BF7AD /* DigitPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				84AB25F01E7993A4009D3BAF /* DDGTripleProjTableViewController.h */,
+				84AB25F11E7993A4009D3BAF /* DDGTripleProjTableViewController.m */,
+				84AB25F31E7993CB009D3BAF /* DDGForthPlanTableViewController.h */,
+				84AB25F41E7993CB009D3BAF /* DDGForthPlanTableViewController.m */,
+				255397E61E2E572400DCC794 /* DDGMasterTaskViewController.h */,
+				255397E71E2E572400DCC794 /* DDGMasterTaskViewController.m */,
+				255397E91E2E5EFF00DCC794 /* DDGSlaveReadViewController.h */,
+				255397EA1E2E5EFF00DCC794 /* DDGSlaveReadViewController.m */,
+				25FD81C51E2A468C003BF7AD /* DDGAppDelegate.h */,
+				25FD81C61E2A468C003BF7AD /* DDGAppDelegate.m */,
+				25FD81C21E2A468C003BF7AD /* main.m */,
+				25FD81BD1E2A468C003BF7AD /* Supporting Files */,
+			);
+			path = DigitPlayer;
+			sourceTree = "<group>";
+		};
+		25FD81BD1E2A468C003BF7AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25FD81BE1E2A468C003BF7AD /* DigitPlayer-Info.plist */,
+				25FD81BF1E2A468C003BF7AD /* InfoPlist.strings */,
+				25FD81C41E2A468C003BF7AD /* DigitPlayer-Prefix.pch */,
+				25FD81C81E2A468C003BF7AD /* Default.png */,
+				25FD81CA1E2A468C003BF7AD /* Default@2x.png */,
+				25FD81CC1E2A468C003BF7AD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358BD1421F264F3B000B8D60 /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBDB726875204003DD5EF /* KxMenu.h */,
+				8BCFBDB626875204003DD5EF /* KxMenu.m */,
+			);
+			name = KxMenu;
+			sourceTree = "<group>";
+		};
+		35CEC5481F3C5093006A1A1D /* Networker */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBDB926875245003DD5EF /* DDGNetworker.h */,
+				8BCFBDBA26875245003DD5EF /* DDGNetworker.m */,
+			);
+			name = Networker;
+			sourceTree = "<group>";
+		};
+		3F10163E1FDE0F2E008AFC38 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBDBC26875444003DD5EF /* SQLite3Cpp.cpp */,
+				8BCFBDBD26875444003DD5EF /* SQLite3Cpp.hpp */,
+				8B7DBAE91FE7898400491F1C /* DDGDBExecutor.h */,
+				8B7DBAEA1FE7898400491F1C /* DDGDBExecutor.mm */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		3F38BA991FD5813600339900 /* Pros */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD4926874C9C003DD5EF /* DDGProjectViewController.xib */,
+				8BCFBD6426874C9D003DD5EF /* DDGProjectViewController.m */,
+				8BCFBD4F26874C9C003DD5EF /* DDGProjectViewController.h */,
+				8BCFBD6926874C9E003DD5EF /* DDGProjectTask.m */,
+				8BCFBD4B26874C9C003DD5EF /* DDGProjectTask.h */,
+			);
+			name = Pros;
+			sourceTree = "<group>";
+		};
+		3FAD2CCC1FDE55890021112E /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD6626874C9E003DD5EF /* DDGShopTask.m */,
+				8BCFBD4A26874C9C003DD5EF /* DDGShopTask.h */,
+				8BCFBD6126874C9D003DD5EF /* DDGMallTaskViewController.xib */,
+				8BCFBD5D26874C9D003DD5EF /* DDGMallTaskViewController.h */,
+				8BCFBD6526874C9E003DD5EF /* DDGMallTaskViewController.m */,
+				8BCFBD4626874C9C003DD5EF /* DDGMallTaskDetailViewController.xib */,
+				8BCFBD6C26874C9E003DD5EF /* DDGMallTaskDetailViewController.h */,
+				8BCFBD5226874C9C003DD5EF /* DDGMallTaskDetailViewController.m */,
+			);
+			name = Shopping;
+			sourceTree = "<group>";
+		};
+		84058E501E7D6F19003D07EC /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD5C26874C9D003DD5EF /* DDGTask.h */,
+				8BCFBD6026874C9D003DD5EF /* DDGNewTaskViewController.h */,
+				8BCFBD6A26874C9E003DD5EF /* DDGNewTaskViewController.m */,
+				8BCFBD5726874C9D003DD5EF /* DDGNewTaskViewController.xib */,
+				8BCFBD5326874C9C003DD5EF /* DDGTask.m */,
+				8BCFBD5826874C9D003DD5EF /* DDGTaskDateTimeViewController.h */,
+				8BCFBD5B26874C9D003DD5EF /* DDGTaskDateTimeViewController.m */,
+				8BCFBD5E26874C9D003DD5EF /* DDGTaskDateTimeViewController.xib */,
+				8BCFBD5426874C9D003DD5EF /* DDGTaskDBManager.cpp */,
+				8BCFBD6B26874C9E003DD5EF /* DDGTaskDBManager.hpp */,
+				8BCFBD4E26874C9C003DD5EF /* DDGTaskStore.h */,
+				8BCFBD5F26874C9D003DD5EF /* DDGTaskStore.m */,
+				8BCFBD6226874C9D003DD5EF /* DDGTaskViewController.h */,
+				8BCFBD5526874C9D003DD5EF /* DDGTaskViewController.m */,
+				043B9DCF1E83CBF7000ACE18 /* Plan */,
+				3F38BA991FD5813600339900 /* Pros */,
+				C9DD9CC71FFFB5C7000E716E /* Reading */,
+				3FAD2CCC1FDE55890021112E /* Shopping */,
+				C9DD9CC61FFFB567000E716E /* Event */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		84058E521E7D6FF0003D07EC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD9A2687511F003DD5EF /* DDGCusTaskTableViewCell.h */,
+				8BCFBD992687511F003DD5EF /* DDGCusTaskTableViewCell.m */,
+				8BCFBD9B2687511F003DD5EF /* DDGCusTaskTableViewCell.xib */,
+				8BCFBD912687508A003DD5EF /* DDGGenericLableController.h */,
+				8BCFBD922687508A003DD5EF /* DDGGenericLableController.m */,
+				8BCFBD8F2687508A003DD5EF /* DDGGenericLableController.xib */,
+				8BCFBD8E2687508A003DD5EF /* DDGGenericTableCellController.h */,
+				8BCFBD8D2687508A003DD5EF /* DDGGenericTableCellController.m */,
+				8BCFBD932687508A003DD5EF /* DDGGenericTableCellController.xib */,
+				8BCFBD8C2687508A003DD5EF /* DDGViewCtrlStore.h */,
+				8BCFBD902687508A003DD5EF /* DDGViewCtrlStore.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		84058E581E7D9295003D07EC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD9E26875148003DD5EF /* DDGDTimeCommon.h */,
+				8BCFBD9F26875148003DD5EF /* DDGDTimeCommon.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		84AAEAEF1E82BAB100A3040C /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBDB2268751C3003DD5EF /* DDGQRCoderScanViewController.h */,
+				8BCFBDB3268751C3003DD5EF /* DDGQRCoderScanViewController.m */,
+				8BCFBDB1268751C3003DD5EF /* DDGQRCoderScanViewController.xib */,
+				8BCFBDA52687516F003DD5EF /* DDGBook.h */,
+				8BCFBDA72687516F003DD5EF /* DDGBookStore.h */,
+				8BCFBDA82687516F003DD5EF /* DDGBookTaskViewController.xib */,
+				8BCFBDAA2687516F003DD5EF /* DDGDetailBookInfoViewController.m */,
+				8BCFBDA32687516F003DD5EF /* DDGBookStore.m */,
+				8BCFBDA92687516F003DD5EF /* DDGBookTaskViewController.h */,
+				8BCFBDA12687516F003DD5EF /* DDGBook.m */,
+				8BCFBDA22687516F003DD5EF /* DDGBookTaskViewController.m */,
+				8BCFBDA42687516F003DD5EF /* DDGDetailBookInfoViewController.h */,
+				8BCFBDA62687516F003DD5EF /* DDGDetailBookInfoViewController.xib */,
+			);
+			name = Book;
+			sourceTree = "<group>";
+		};
+		9FABCBCC1F024FA400CB2D29 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				358BD1421F264F3B000B8D60 /* KxMenu */,
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		C9DD9CC61FFFB567000E716E /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD4D26874C9C003DD5EF /* DDGTaskDetailViewController.xib */,
+				8BCFBD4C26874C9C003DD5EF /* DDGTaskDetailViewController.m */,
+				8BCFBD4826874C9C003DD5EF /* DDGTaskDetailViewController.h */,
+				8BCFBD4726874C9C003DD5EF /* DDGEventTaskViewController.xib */,
+				8BCFBD6826874C9E003DD5EF /* DDGEventTaskViewController.h */,
+				8BCFBD6D26874C9E003DD5EF /* DDGEventTaskViewController.m */,
+				8BCFBD5026874C9C003DD5EF /* DDGEventTask.m */,
+				8BCFBD5626874C9D003DD5EF /* DDGEventTask.h */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		C9DD9CC71FFFB5C7000E716E /* Reading */ = {
+			isa = PBXGroup;
+			children = (
+				8BCFBD5926874C9D003DD5EF /* DDGReadTask.h */,
+				8BCFBD5126874C9C003DD5EF /* DDGReadTask.m */,
+			);
+			name = Reading;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FD81B21E2A468B003BF7AD /* DigitPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FD81D61E2A468C003BF7AD /* Build configuration list for PBXNativeTarget "DigitPlayer" */;
+			buildPhases = (
+				25FD81AF1E2A468B003BF7AD /* Sources */,
+				25FD81B01E2A468B003BF7AD /* Frameworks */,
+				25FD81B11E2A468B003BF7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitPlayer;
+			productName = DigitPlayer;
+			productReference = 25FD81B31E2A468B003BF7AD /* DigitPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FD81AB1E2A468B003BF7AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DDG;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mavericks-Hackintosh";
+				TargetAttributes = {
+					25FD81B21E2A468B003BF7AD = {
+						DevelopmentTeam = 8NX6GA463C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 25FD81AE1E2A468B003BF7AD /* Build configuration list for PBXProject "DigitPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 25FD81AA1E2A468B003BF7AD;
+			productRefGroup = 25FD81B41E2A468B003BF7AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FD81B21E2A468B003BF7AD /* DigitPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FD81B11E2A468B003BF7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCFBD952687508A003DD5EF /* DDGGenericLableController.xib in Resources */,
+				25FD81C11E2A468C003BF7AD /* InfoPlist.strings in Resources */,
+				8BCFBD982687508A003DD5EF /* DDGGenericTableCellController.xib in Resources */,
+				25FD81C91E2A468C003BF7AD /* Default.png in Resources */,
+				25FD81CB1E2A468C003BF7AD /* Default@2x.png in Resources */,
+				25FD81CD1E2A468C003BF7AD /* Default-568h@2x.png in Resources */,
+				8BCFBD9D2687511F003DD5EF /* DDGCusTaskTableViewCell.xib in Resources */,
+				8BCFBD6E26874C9E003DD5EF /* DDGMallTaskDetailViewController.xib in Resources */,
+				8BCFBDAF2687516F003DD5EF /* DDGBookTaskViewController.xib in Resources */,
+				8BCFBD7226874C9E003DD5EF /* DDGTaskDetailViewController.xib in Resources */,
+				8BCFBDB4268751C3003DD5EF /* DDGQRCoderScanViewController.xib in Resources */,
+				8BCFBD7E26874C9E003DD5EF /* DDGMallTaskViewController.xib in Resources */,
+				8BCFBD7C26874C9E003DD5EF /* DDGTaskDateTimeViewController.xib in Resources */,
+				8BCFBDAE2687516F003DD5EF /* DDGDetailBookInfoViewController.xib in Resources */,
+				8BCFBD6F26874C9E003DD5EF /* DDGEventTaskViewController.xib in Resources */,
+				8BCFBD7926874C9E003DD5EF /* DDGNewTaskViewController.xib in Resources */,
+				8BCFBD7026874C9E003DD5EF /* DDGProjectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FD81AF1E2A468B003BF7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCFBD972687508A003DD5EF /* DDGGenericLableController.m in Sources */,
+				8BCFBD962687508A003DD5EF /* DDGViewCtrlStore.m in Sources */,
+				8BCFBD7B26874C9E003DD5EF /* DDGTaskDateTimeViewController.m in Sources */,
+				25FD81C31E2A468C003BF7AD /* main.m in Sources */,
+				8BCFBD8426874C9E003DD5EF /* DDGNewTaskViewController.m in Sources */,
+				8BCFBDAB2687516F003DD5EF /* DDGBook.m in Sources */,
+				255397EB1E2E5EFF00DCC794 /* DDGSlaveReadViewController.m in Sources */,
+				25FD81C71E2A468C003BF7AD /* DDGAppDelegate.m in Sources */,
+				8B7DBAEB1FE7898400491F1C /* DDGDBExecutor.mm in Sources */,
+				255397E81E2E572400DCC794 /* DDGMasterTaskViewController.m in Sources */,
+				8BCFBD7D26874C9E003DD5EF /* DDGTaskStore.m in Sources */,
+				8BCFBDB5268751C3003DD5EF /* DDGQRCoderScanViewController.m in Sources */,
+				8BCFBD7526874C9E003DD5EF /* DDGMallTaskDetailViewController.m in Sources */,
+				8BCFBD8526874C9E003DD5EF /* DDGEventTaskViewController.m in Sources */,
+				84AB25F51E7993CB009D3BAF /* DDGForthPlanTableViewController.m in Sources */,
+				8BCFBD7626874C9E003DD5EF /* DDGTask.m in Sources */,
+				8BCFBDB02687516F003DD5EF /* DDGDetailBookInfoViewController.m in Sources */,
+				8BCFBD8B26874F50003DD5EF /* DDGPlanStore.m in Sources */,
+				8BCFBDA026875148003DD5EF /* DDGDTimeCommon.m in Sources */,
+				8BCFBD7326874C9E003DD5EF /* DDGEventTask.m in Sources */,
+				8BCFBD8026874C9E003DD5EF /* DDGProjectViewController.m in Sources */,
+				8BCFBD7726874C9E003DD5EF /* DDGTaskDBManager.cpp in Sources */,
+				8BCFBD7426874C9E003DD5EF /* DDGReadTask.m in Sources */,
+				8BCFBDB826875204003DD5EF /* KxMenu.m in Sources */,
+				8BCFBD8326874C9E003DD5EF /* DDGProjectTask.m in Sources */,
+				8BCFBDBB26875245003DD5EF /* DDGNetworker.m in Sources */,
+				84AB25F21E7993A4009D3BAF /* DDGTripleProjTableViewController.m in Sources */,
+				8BCFBDBE26875444003DD5EF /* SQLite3Cpp.cpp in Sources */,
+				8BCFBD7826874C9E003DD5EF /* DDGTaskViewController.m in Sources */,
+				8BCFBD9C2687511F003DD5EF /* DDGCusTaskTableViewCell.m in Sources */,
+				8BCFBD8226874C9E003DD5EF /* DDGShopTask.m in Sources */,
+				8BCFBD8126874C9E003DD5EF /* DDGMallTaskViewController.m in Sources */,
+				8BCFBDAC2687516F003DD5EF /* DDGBookTaskViewController.m in Sources */,
+				8BCFBD7126874C9E003DD5EF /* DDGTaskDetailViewController.m in Sources */,
+				8BCFBD942687508A003DD5EF /* DDGGenericTableCellController.m in Sources */,
+				8BCFBDAD2687516F003DD5EF /* DDGBookStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25FD81BF1E2A468C003BF7AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FD81C01E2A468C003BF7AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FD81D41E2A468C003BF7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7s armv7";
+			};
+			name = Debug;
+		};
+		25FD81D51E2A468C003BF7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7s armv7";
+			};
+			name = Release;
+		};
+		25FD81D71E2A468C003BF7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NX6GA463C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitPlayer/DigitPlayer-Prefix.pch";
+				INFOPLIST_FILE = "DigitPlayer/DigitPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libcurl-ios-dist/lib",
+					"$(PROJECT_DIR)/libcurl-ios-dist",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Squirrel.DigitPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 armv7s armv7";
+				WARNING_LDFLAGS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25FD81D81E2A468C003BF7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NX6GA463C;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DigitPlayer/DigitPlayer-Prefix.pch";
+				INFOPLIST_FILE = "DigitPlayer/DigitPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libcurl-ios-dist/lib",
+					"$(PROJECT_DIR)/libcurl-ios-dist",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = Squirrel.DigitPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 armv7s armv7";
+				WARNING_LDFLAGS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FD81AE1E2A468B003BF7AD /* Build configuration list for PBXProject "DigitPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FD81D41E2A468C003BF7AD /* Debug */,
+				25FD81D51E2A468C003BF7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		25FD81D61E2A468C003BF7AD /* Build configuration list for PBXNativeTarget "DigitPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FD81D71E2A468C003BF7AD /* Debug */,
+				25FD81D81E2A468C003BF7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25FD81AB1E2A468B003BF7AD /* Project object */;
+}
